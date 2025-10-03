@@ -14,6 +14,7 @@ export default function Favorites() {
 
   return (
     <div>
+      <h1 className="home__title">Your favorite movies</h1>
       {!favorites.length ? (
         <p className="not__found">No movies yet</p>
       ) : (
