@@ -28,7 +28,14 @@
 }
 
 @media (max-width: 767px) {
+  .card {
+    gap: 5px;
+  }
   .card__image {
     height: 300px;
+  }
+  .card__title,
+  .card__release-date {
+    padding: 5px 10px;
   }
 }
