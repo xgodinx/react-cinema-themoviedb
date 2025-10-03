@@ -1,0 +1,11 @@
+.app-container {
+  min-height: 100vh; /* занимает всю высоту окна */
+  display: grid;
+  grid-template-rows: 70px 1fr;
+}
+.content-container {
+  background-color: #242424;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}

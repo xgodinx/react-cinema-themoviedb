@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  background-color: rgb(53, 51, 51);
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link a {
+  text-decoration: none;
+  color: rgb(147, 101, 161);
+  font-size: 18px;
+}
+.big-link a {
+  font-size: 20px;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
